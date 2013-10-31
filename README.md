@@ -11,11 +11,15 @@ Install Instructions
 Build Instructions
 ------------------
 
+```
 git clone https://github.com/jmstacey/screenbrightness.git
+
+cd screenbrightness
 
 gcc -std=c99 -o screenbrightness screenbrightness.c -framework IOKit -framework ApplicationServices
 
 mv screenbrightness /usr/local/bin/
+```
 
 Usage
 ------------------
