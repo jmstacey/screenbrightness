@@ -11,7 +11,7 @@ Install Instructions
 Build Instructions
 ------------------
 
-```
+```shell
 git clone https://github.com/jmstacey/screenbrightness.git
 
 cd screenbrightness
