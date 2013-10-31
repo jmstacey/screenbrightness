@@ -23,10 +23,10 @@ mv screenbrightness /usr/local/bin/
 
 Usage
 ------------------
-screenbrightness {0..1}
+```screenbrightness [0..1]```
 
 Example: 100% brightness
-screenbrightness 1
+```screenbrightness 1```
 
 Example 50% brightness
-scrennbrightness 0.5
+```scrennbrightness 0.5```
