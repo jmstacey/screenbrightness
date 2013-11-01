@@ -16,17 +16,22 @@ git clone https://github.com/jmstacey/screenbrightness.git
 
 cd screenbrightness
 
-gcc -std=c99 -o screenbrightness screenbrightness.c -framework IOKit -framework ApplicationServices
+make
 
-mv screenbrightness /usr/local/bin/
+make install
 ```
 
 Usage
 ------------------
-```screenbrightness [0..1]```
+```shell
+usage: screenbrightness [-m|-d display] [-v] <brightness>
+   or: screenbrightness -l [-v]
+```
 
-Example: 100% brightness
-```screenbrightness 1```
+### Examples
 
-Example 50% brightness
-```scrennbrightness 0.5```
+Set 100% brightness: ```screenbrightness 1```
+
+Set 50% brightness: ```screenbrightness 0.5```
+
+Show current settings ```screenbrightness -l```
