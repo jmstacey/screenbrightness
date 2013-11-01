@@ -1,14 +1,16 @@
 screenbrightness
 ================
 
+screenbrightness is an OS X command line utility for chaning screen brightness. It also lets you retrieve the current brightness settings.
+
 Original code from Matt [Danger]'s blog post: http://mattdanger.net/2008/12/adjust-mac-os-x-display-brightness-from-the-terminal/
 
-Install Instructions
+Install with Homebrew
 --------------------
 
 ** coming soon ** ```brew install screenbrightness```
 
-Build Instructions
+Install From Source
 ------------------
 
 ```shell
