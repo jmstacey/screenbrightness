@@ -3,7 +3,7 @@
 # Friday November 1, 2013
 # Jon Stacey <jon@jonsview.com>
 
-PREFIX=/usr/local
+prefix=/usr/local
 
 CC=clang
 
@@ -19,5 +19,5 @@ clean:
 	rm -f screenbrightness *.o
 
 install:
-	mkdir -p $(PREFIX)/bin
-	install -s -m 0755 screenbrightness $(PREFIX)/bin
+	mkdir -p $(prefix)/bin
+	install -s -m 0755 screenbrightness $(prefix)/bin
