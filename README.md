@@ -8,7 +8,7 @@ Original code from Matt [Danger]'s blog post: http://mattdanger.net/2008/12/adju
 Install with Homebrew
 --------------------
 
-** coming soon ** ```brew install screenbrightness```
+```brew install screenbrightness```
 
 Install From Source
 ------------------
