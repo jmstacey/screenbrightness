@@ -140,6 +140,7 @@ int main(int argc, char * const argv[]) {
       }
     }
 
+    /* CGDisplayIOServicePort - Deprecated in OS X v10.9. There is no replacement. */
     io_service_t service = CGDisplayIOServicePort(dspy);
 
     switch (action) {
