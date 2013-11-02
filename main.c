@@ -121,7 +121,7 @@ int main(int argc, char * const argv[]) {
 
   for (CGDisplayCount i = 0; i < numDisplays; ++i) {
     CGDirectDisplayID dspy         = display[i];
-    CGDisplayModeRef  originalMode = CGDisplayCopyDisplayMode(dspy);
+    CFDictionaryRef   originalMode = CGDisplayCurrentMode(dspy);
 
     if (originalMode == NULL)
       continue;
@@ -139,8 +139,6 @@ int main(int argc, char * const argv[]) {
         CFStringGetCStringPtr(error, CFStringGetFastestEncoding(error)));
       }
     }
-
-    CGDisplayModeRelease(originalMode); // Caller is responsible for releasing display mode
 
     io_service_t service = CGDisplayIOServicePort(dspy);
 
