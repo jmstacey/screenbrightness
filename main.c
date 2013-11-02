@@ -3,7 +3,7 @@
 #include <IOKit/graphics/IOGraphicsLib.h>
 #include <ApplicationServices/ApplicationServices.h>
 
-const int         kMaxDisplays       = 16;
+#define kMaxDisplays 16
 const CFStringRef kDisplayBrightness = CFSTR(kIODisplayBrightnessKey);
 const char*       APP_NAME;
 
