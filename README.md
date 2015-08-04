@@ -1,27 +1,23 @@
-screenbrightness
+NOTICE: Repository Merged with Upstream
 ================
 
-screenbrightness is an OS X command line utility for changing screen brightness. It also lets you retrieve the current brightness settings.
+This repository has been merged with upstream at: 
+https://github.com/nriley/brightness
 
-Original code from Matt [Danger]'s blog post: http://mattdanger.net/2008/12/adjust-mac-os-x-display-brightness-from-the-terminal/
+Please go checkout the code there for the latest, or look at the logs of this repository for history.
+
+Additionally, the Homebrew forumula has been renamed to 'brightness'
+
+brightness
+================
+
+brightness is an OS X command line utility for changing screen brightness. It also lets you retrieve the current brightness settings.
 
 Install with Homebrew
 --------------------
 
-```brew install screenbrightness```
+```brew install brightness```
 
-Install From Source
-------------------
-
-```shell
-git clone https://github.com/jmstacey/screenbrightness.git
-
-cd screenbrightness
-
-make
-
-make install
-```
 
 Usage
 ------------------
